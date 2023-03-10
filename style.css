@@ -1,0 +1,60 @@
+img{
+    border-radius: 150px;
+    height: 100px;
+    width: 100px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+/* .fire{
+    color: white !important;
+} */
+/* .fa-fire{
+    
+    visibility: hidden;
+}
+ */
+ .myDIV{
+    display: none;
+ }
+ #fire {
+    
+     color: orange;
+     transform: rotate(90deg) !important;
+ }
+button {
+    border: none;
+    width: 75px;
+    height: 30px;
+    border-radius: 25px;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.872);
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    width: 400px;
+}
+.card-content>button {
+    margin: 2%;
+}
+
+.card-content {
+    padding: 1%;
+}
+
+p {
+    text-align: center;
+    padding: 2%;
+}
+
+.card-container {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
